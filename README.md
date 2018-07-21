@@ -9,7 +9,7 @@ Note: The Matlab codes will only work after downloading MSR-ACTION3D, unable to 
 Please Download the MSR-ACTION3D DATASET FROM THE LINK BELOW
 https://www.uow.edu.au/~jz960/datasets/MSRAction3D.html (requires password to open the file)
 
-It contains two major files
+Our Project contains two major files
 1.MainTest1.m, 
 
  (MainTest1.m - used for reproducing the results in the paper, particularly 

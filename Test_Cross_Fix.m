@@ -3,11 +3,9 @@
 % Cross Subject Test
 % by Chen Chen, The University of Texas at Dallas
 % chenchen870713@gmail.com
+%% Some Part of the code is acquired from the above author, while the major modification
+%% is done by the Author of this publication arunrajeie@gmail.com.
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%% Subjects for training and testing are FIXED.
-%%%%%%% Subject 1 3 5 7 9 as training subjects, the rest as testing subjects
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 file_dir = 'MSR-Action3D\';
 

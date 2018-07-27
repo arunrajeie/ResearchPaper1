@@ -1,10 +1,13 @@
+Note: The Matlab codes will only work after downloading MSR-ACTION3D, unable to upload the entire dataset.
+Please Download the MSR-ACTION3D DATASET FROM THE LINK BELOW
+https://www.uow.edu.au/~jz960/datasets/MSRAction3D.html (requires password to open the file)
+
 ## This Matlab Source code is based on the paper Titled,
 ## "Online action recognition from RGB-D cameras based on reduced basis decomposition"
 ## written by Muniandi Arunraj, Andy Srinivasan, A. Vimala Juliet
 ## [Paper Link:](https://link.springer.com/article/10.1007/s11554-018-0778-8)
 ## [Read only Link:](https://rdcu.be/NyqK )
 
-## Use run.sh to run the following files
 ## (used Bicubic Interplations (resize_feature1.m) and Lanczos 3rd order Interpolations (resize_feature2.m)   )
 
 # 1.AS_Imagereconstruction.m, 

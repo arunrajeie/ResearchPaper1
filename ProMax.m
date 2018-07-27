@@ -17,5 +17,6 @@ for ci = 1:class_num
 end
 
 [~,pred_ttls] = min(pre_matrix,[],1);
-% save exampleScriptMAT
+%Avoid storing variables during normal operation
+save ('../results/ProMax.mat')  %% We are saving this variable to count the FLOPS
 end

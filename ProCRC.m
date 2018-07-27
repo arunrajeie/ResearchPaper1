@@ -60,6 +60,7 @@ switch model_type
     otherwise
         error(['\nUnknown ProCRC model for type: ',model_type]);
 end
-% save ProCRC 
+%Avoid storing variables during normal operation
+save ('../results/ProCRC.mat')  %% We are saving this variable to count the FLOPS
 end
 

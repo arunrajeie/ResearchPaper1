@@ -32,7 +32,7 @@ else % for small sample size case
     b = (1/sqrt(S(k)));
     disc_set(:,k)=b*a;
   end
-save Eigenface_f
+save ('../results/Eigenface_f.mat')  %% We are saving this variable to count the FLOPS
 end
 
 

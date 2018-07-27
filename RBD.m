@@ -147,5 +147,6 @@ while (i <= col) && (CurErr > tol)
         i = i+1;
     end
 end
-save RBD
+%Avoid storing variables during normal operation
+save ('../results/RBD.mat')  %% We are saving this variable to count the FLOPS
 end

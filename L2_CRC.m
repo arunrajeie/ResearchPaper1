@@ -26,4 +26,5 @@ for i = 1:size(F_test,2)
     k = find(error==min(error));
     label(i) = k(1);
 end 
-% save exampleScriptMAT
+%Avoid storing variables during normal operation
+save ('../results/L2_CRC.mat')  %% We are saving this variable to count the FLOPS
